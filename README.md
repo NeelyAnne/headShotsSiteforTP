@@ -10,7 +10,7 @@ A web/mobile application that instructs and allows the user to capture an image 
 
 ## **Contributors: **
 - Bilikis Orulebaja
-    -https://github.com/borulebaja
+    - https://github.com/borulebaja
 - Brandt Campbell
     - https://github.com/Reboot82
 - Brian Loveless
