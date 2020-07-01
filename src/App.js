@@ -4,7 +4,7 @@ import NotFoundPage from './components/notFoundPage';
 import NavBar from './components/navBar'
 import Home from './components/home';
 import './App.css';
-import { Redirect, Route, Switch, BrowserRouter } from "react-router-dom";
+import { Route, Switch, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
