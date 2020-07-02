@@ -24,7 +24,7 @@ class Home extends Component {
                         <a href="http://www.prexperts.com/_assets/images/Cactus%20News/Clamshell%20lighting%20650.png">Good lighting: an example.</a>
                         <p>You do not need a reflector but you do not want to be directly under a light or back lit either.</p>
                     </li>
-                    <li>
+                    <li id="">
                         Click show to display the frame where you will center yourself in.
                 </li>
                     <li>
@@ -34,7 +34,7 @@ class Home extends Component {
                         Turn your body slightly to the right and then look at the camera.
                 </li>
                     <li>
-                        Smile and say cheese!  😊 🧀
+                        Smile and say cheese!<span role="img" aria-label="smile">😊</span><span role="img" aria-label="cheese">🧀</span>
                 </li>
                     <li>
                         Click on the circle to take the photo.
