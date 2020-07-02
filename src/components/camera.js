@@ -99,7 +99,7 @@ function CameraComponent(props) {
 		function dataUrlToBlob(strUrl) {
 			var parts= strUrl.split("[:;,]"),
 			type= parts[1],
-			decoder= parts[2] === "base64" ? atob : decodeURIComponent,
+			decoder= parts[2] == "base64" ? atob : decodeURIComponent,
 			binData= decoder( parts.pop() ),
 			mx= binData.length,
 			i= 0,
