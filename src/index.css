@@ -23,12 +23,13 @@ code {
   font-family: "Raleway", "Arial", sans-serif, -apple-system, BlinkMacSystemFont;
 }
 
-h1 {
+#headshot-title {
   text-align: center;
   font-family: "Raleway", "Arial", sans-serif, -apple-system, BlinkMacSystemFont;
   letter-spacing: 3pt;
   font-size: larger;
-  color: white;
+  color: #4d4e4e;
+  letter-spacing: 10px;
 }
 
 .homeDiv {
@@ -83,17 +84,17 @@ video {
   width: 100%;
   border: 5px solid lightgray;
 }
+
 .cameraDiv {
   display: flex;
   justify-content: center;
-  margin-bottom: 200px;
+  height: 540px;
 }
 
 .camera {
   width: 770px;
   height: 440px;
   position: absolute;
-  /* background-color: green; */
 }
 
 .showBtn {
@@ -150,12 +151,37 @@ video {
   z-index: 5;
 }
 
-.logo {
+#logo {
+  width: 100%;
+  padding: 5% 20% 3% 20%;
+}
+
+#backsplash {
+  display: flex;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.87);
+  align-items: center;
+  width: 650px;
+  height: 400px;
+  justify-content: center;
+  font-weight: 600;
   position: absolute;
-  z-index: 1;
-  max-width: 200px;
-  bottom: 10px;
-  right: 10px;
+  /* left: 17%; */
+}
+
+#backsplash-wrapper { 
+  background-image: url("/img/backsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+  /* margin-left: 3.2vw; */
+  width: 100vw;
+  height: 90vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .preview-btns {
@@ -178,39 +204,61 @@ video {
   z-index: 8;
 }
 
-.retake,
-.save,
-.hide,
-.info {
-  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+.retake, .save, .hide, .info, .change {
+  box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
   border: none;
   transition-duration: 0.1s;
 }
 
-.retake:hover,
-.save:hover,
-.hide:hover {
-  size: 98%;
-  background: rgb(226, 223, 231);
-  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+.retake:hover, .save:hover, .hide:hover, .change:hover {
+  size:98%;
+  background:rgb(226, 223, 231);
+  box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
 }
 
 .container-instr {
   display: flex;
   justify-content: center;
-  margin: 450px 0 30px 0;
+  margin: 0 0 30px 0 ;
 }
 
 .home-container {
   margin-top: 10vh;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
   .demo-image-preview > img {
     width: 100%;
   }
+  #backsplash {
+    width: 75vw;
+    overflow: hidden;
+    /* left: 12%; */
+    height:280px;
+  }
+  #backsplash-wrapper {
+    width: 100vw;
+  }
+  .camera {
+    width: 100vw;
+  }
+}
+@media(max-width:700px){
   #container-circles {
     opacity: 0.5;
+  }
+  #backsplash-wrapper {
+    width: 100vw;
+    /* margin-left: 5vw; */
+  }
+}
+
+@media(max-width:600px){
+  #container-circles {
+    opacity: 0.5;
+  }
+  #backsplash-wrapper {
+    width: 100vw;
   }
 }
 
@@ -230,13 +278,23 @@ video {
     width: 100vw;
   }
   .camera {
-    width: 100%;
+    width: 100vw;
   }
   .btnDiv {
     width: 100vw;
   }
   .cameraDiv {
     margin-top: 50px;
+  }
+  #backsplash {
+    width: 75vw;
+    overflow: hidden;
+    left: 12%;
+    height:280px;
+  }
+  #headshot-title{
+    letter-spacing: 8px;
+    font-size: large;
   }
   .overlay {
     width: 100vw;
@@ -251,9 +309,9 @@ video {
     z-index: 5;
     left: 25vw;
   }
-  .camera {
+  /* .camera {
     height: 200px;
-  }
+  } */
   .home-container {
     margin-top: 30px;
   }
@@ -288,11 +346,11 @@ video {
   height: auto;
 }
 
-/* PLEASE IGNORE THIS FOR NOW WHILE THE INSTRUCTION COMPONENETS TEAM WORKS ON THE INSTRUCTIONS THANK YOU JC 😊 */
-.lineItem {
+/* PLEASE IGNORE THIS FOR NOW WHILE THE INSTRUCTION COMPONENTS TEAM WORKS ON THE INSTRUCTIONS THANK YOU JC 😊 */
+/* .lineItem {
   border: blue dashed 2px;
   margin: 5px;
-}
+} */
 
 h1.instHead1 {
   color: black;
