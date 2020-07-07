@@ -19,7 +19,6 @@ We have 3 deployments. The Amazon Web Services link and the Google Cloud Platfor
 [GCP](https://camera-app-4145.ue.r.appspot.com/)
 
 
-
 ## **Contributors:**
 - Bilikis Orulebaja
     - https://github.com/borulebaja
