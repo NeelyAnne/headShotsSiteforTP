@@ -20,7 +20,6 @@ We have 3 deployments. The Amazon Web Services link and the Google Cloud Platfor
 
 
 
-
 ## **Contributors:**
 - Bilikis Orulebaja
     - https://github.com/borulebaja
