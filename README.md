@@ -39,7 +39,6 @@ We have 3 deployments. The Amazon Web Services link and the Google Cloud Platfor
 - Trevor Taylor
     - https://github.com/Trevis42
 
-
 ## **Languages/Technologies:**
 - JavaScript
 - NodeJS
