@@ -7,28 +7,6 @@ html {
 
 body {
   margin: 0;
-<<<<<<< HEAD
-  font-family: 'Raleway', 'Arial', sans-serif, -apple-system, BlinkMacSystemFont;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: url('/img/triangle-mosaic.png');
-}
-
-* {
-  font-family: 'Raleway', 'Arial', sans-serif, -apple-system, BlinkMacSystemFont;
-}
-
-code {
-  font-family: 'Raleway', 'Arial', sans-serif, -apple-system, BlinkMacSystemFont;
-}
-
-h1 {
-  text-align: center;
-  font-family: 'Raleway', 'Arial', sans-serif, -apple-system, BlinkMacSystemFont;;
-  letter-spacing: 3pt;
-  font-size: larger;
-  color: white;
-=======
   padding: 0;
   height: 100%;
   font-family: "Raleway", "Arial", sans-serif, -apple-system, BlinkMacSystemFont;
@@ -94,58 +72,23 @@ code {
   width: 200px;
   margin: 20px;
   border: none;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
 }
 
 .homeDiv {
   color: black;
   font-size: 15px;
   font-weight: bold;
-<<<<<<< HEAD
-  width: 750px;
-=======
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
   background-color: rgb(241, 241, 241);
   margin: 0 auto;
   padding: 20px 50px;
   border-radius: 5px;
   line-height: 28px;
-<<<<<<< HEAD
-  box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
-}
-
-.heading {
-  background-color:  #2e67b2;
-}
-
-.decor {
-  width: 0;
-  height: 0;
-  margin-top: 9px;
-  position: absolute;
-  border-top: 50px solid transparent;
-  border-left: 50px solid #f8992f;
-  border-bottom: 50px solid transparent;
-}
-.decor2 {
-  width: 0;
-  height: 0;
-  position: absolute;
-  border-top: 60px solid transparent;
-  border-left: 60px solid #4d4e4e;;
-  border-bottom: 60px solid transparent;
-}
-
-#instructions{
-  font-weight: bold;
-=======
   box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
 }
 
 #instructions {
   font-weight: bold;
   text-align: center;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
 }
 
 .demo-image-preview {
@@ -165,11 +108,7 @@ video {
 .cameraDiv {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
-  margin-bottom: 200px;
-=======
   margin-top: 10vh;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
 }
 
 /* .camera {
@@ -180,33 +119,8 @@ video {
 .showBtn {
   z-index: 4;
   width: 100%;
-<<<<<<< HEAD
-  height: 440px;
-
-}
-
-#hideBtn {
-  background-color:lightgrey;
-  border-radius: 20px;
-  /* border: 2px solid rgba(238, 238, 238, 0.7); */
-  padding: 10px;
-  width: 200px;
-  box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
-}
-
-.nav {
-  color: whitesmoke;
-  font-weight: 300;
-  font-size: 14pt;
-}
-
-.nav-link:hover {
-  color:rgb(59, 6, 59);
-  background-color: whitesmoke;
-=======
   position: relative;
     top: 40px;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
 }
 
 .overlay {
@@ -225,17 +139,10 @@ video {
 }
 
 #showBtn {
-<<<<<<< HEAD
-position: absolute;
-z-index: 2;
-background-color: grey;
-width: 200px;
-=======
   position: absolute;
   z-index: 2;
   background-color: grey;
   width: 200px;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
 }
 
 #placeholder {
@@ -251,24 +158,6 @@ width: 200px;
   z-index: 5;
 }
 
-<<<<<<< HEAD
-.logo {
-  position: absolute;
-  z-index: 1;
-  max-width: 200px;
-  bottom:10px;
-  right: 10px;
-}
-
-.preview-btns {
-  width:100%;
-  display: flex;
-  justify-content: space-between;
-}
-.preview-s-btns {
-  background-color:rgb(194, 191, 199);
-  color:black;
-=======
 #logo {
   width: 100%;
   padding: 5% 20% 3% 20%;
@@ -311,32 +200,12 @@ width: 200px;
 .preview-s-btns {
   background-color: #c5c7c7;
   color: black;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
   border-radius: 20px;
   padding: 10px;
   width: 200px;
   margin: 20px;
 }
 
-<<<<<<< HEAD
-.retake {
-  box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
-  border: none;
-  transition-duration: .1s;
-}
-.retake:hover {
-  size:98%;
-  background:rgb(226, 223, 231);
-  box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
-}
-
-.save {
-  transition-duration: .1s;
-  box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
-  border: none;
-}
-.save:hover {
-=======
 .info {
   margin: 0;
   z-index: 8;
@@ -349,7 +218,6 @@ width: 200px;
 }
 
 .retake:hover, .save:hover, .hide:hover, .change:hover {
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
   size:98%;
   background:rgb(226, 223, 231);
   box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
@@ -358,16 +226,6 @@ width: 200px;
 .container-instr {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
-  margin: 450px 0 30px 0 ;
-}
-
-.home-container {
-  margin-top: 10vh;
-}
-
-@media(max-width:768px){
-=======
   margin: 30px 0 30px 0 ;
 }
 
@@ -377,7 +235,6 @@ width: 200px;
 }
 
 @media (max-width: 830px) {
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
   .demo-image-preview > img {
     width: 100%;
   }
@@ -417,12 +274,6 @@ width: 200px;
   }
 }
 
-<<<<<<< HEAD
-@media(max-width:500px){
-  .showBtn {
-    width: 1vw;
-    height: 1vh;
-=======
 @media (max-width: 500px) {
   #container-circles {
     opacity: 0.5;
@@ -430,36 +281,16 @@ width: 200px;
   #outer-circle {
     opacity: 1;
     margin-top: 30px;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
   }
   body {
     width: 100vw;
   }
-<<<<<<< HEAD
-  .camera{
-    width: 100%;
-=======
   .camera {
     width: 100vw;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
   }
   .btnDiv {
     width: 100vw;
   }
-<<<<<<< HEAD
-  .cameraDiv {
-    margin-top: 50px;
-  }
-  .overlay {
-    width:100vw;
-  }
-  #placeholder {
-    margin-top: 30px;
-    height:170px;
-  }
-  #container-circles {
-    margin-top: 30px;
-=======
   #backsplash {
     width: 75vw;
     overflow: hidden;
@@ -485,29 +316,13 @@ width: 200px;
   } */
   .preview-s-btns{
     margin: 10px;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
   }
 }
 
 /* fullscreen enable by props */
 .demo-image-preview-fullscreen > img {
   width: 100vw;
-<<<<<<< HEAD
-  height:100vh;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-=======
   height: 100vh;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
 }
 
 *,
@@ -516,10 +331,6 @@ body {
   box-sizing: inherit;
 }
 
-<<<<<<< HEAD
-.mid{
-text-align: center;
-=======
 .mid {
   text-align: center;
 }
@@ -549,5 +360,4 @@ text-align: center;
 }
 #buisnesspeople {
   padding: 5px;
->>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
 }
