@@ -6,13 +6,26 @@ A web/mobile application that instructs and allows the user to capture an image 
 
 ## **Deployed App:**
 
+<<<<<<< HEAD
 We have 2 deployments both sites are identical otherwise.
+=======
+We have 3 deployments. The Amazon Web Services link and the Google Cloud Platform links are up to date; however, the heroku link has not been updated as to compare the single page application version to the multi-page application version.
+>>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
 
 [Heroku](https://tp-camera-app.herokuapp.com/)
 
 &
 
+<<<<<<< HEAD
 [AWS](https://master.d3kjut4hb34h8m.amplifyapp.com/)
+=======
+[AWS](https://master.d2w5ezifeqwhms.amplifyapp.com/)
+
+& 
+
+[GCP](https://camera-app-4145.ue.r.appspot.com/)
+
+>>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
 
 
 ## **Contributors:**
@@ -67,6 +80,10 @@ __Additional features__
 
 - [x] mobile friendly css
 
+<<<<<<< HEAD
 - [ ] background filter / removal
 
 - [ ] outline color choices
+=======
+- [x] background filter / removal
+>>>>>>> 6e043d375010235c660ce5726ff50b5fc69cd6df
