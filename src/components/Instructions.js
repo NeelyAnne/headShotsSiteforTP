@@ -5,7 +5,7 @@ import Home from './home';
 class Instructions extends Component {
 
     state = {
-        isActive:false,
+        isActive:true,
         btnTalk: "Read Instructions"
      }
    

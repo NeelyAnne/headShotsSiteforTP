@@ -17,12 +17,12 @@ function App() {
             <h1 id="headshot-title">HEADSHOTS</h1>
           </div>
         </div>
-      </div>
+      </div>      
+      <Instructions />
       <Switch>
         <Route path="/" exact component={CameraComponent} />
         <Route path="/*" component={NotFoundPage} />
       </Switch>
-      <Instructions />
     </BrowserRouter>
   );
 }
