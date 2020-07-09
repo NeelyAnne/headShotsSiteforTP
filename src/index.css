@@ -160,7 +160,7 @@ video {
   background-color: rgba(255, 255, 255, 0.87);
   align-items: center;
   width: 650px;
-  height: 80vh;
+  height: 450px;
   justify-content: center;
   font-weight: 600;
   position: absolute;
@@ -296,7 +296,13 @@ video {
     height:280px;
   }
   #backsplash-wrapper {
-    width: 100vw;
+    /* width: 100vw; */
+
+    background-size: 1000px auto;
+    background-image: url("/img/backsplash-small.jpg");
+    background-position: center;
+    /* height: 100vh; */
+    margin: 0;
   }
   .camera {
     width: 100vw;
@@ -304,6 +310,9 @@ video {
   }
   .home-container {
     width: 100vw;
+  }
+  .cameraDiv {
+    margin-top: 5vh;
   }
 }
 @media(max-width:700px){
