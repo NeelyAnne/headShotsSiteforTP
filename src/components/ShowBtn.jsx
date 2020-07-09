@@ -31,7 +31,7 @@ export default class ShowBtn extends Component{
          return(
              <div>
                 <div className="btnDiv">
-                <button className="preview-s-btns hide" onClick={this.handleShow}>{this.state.btnTalk}</button>
+                <button className="all-btns hide" onClick={this.handleShow}>{this.state.btnTalk}</button>
             </div>
              {this.state.isActive ?             
              <div className="overlay">

@@ -8,8 +8,9 @@ import { Route, Switch, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-
+    
     <BrowserRouter>
+    
       <div id="backsplash-wrapper">
         <div id="backsplash">
           <div>
@@ -18,11 +19,12 @@ function App() {
           </div>
         </div>
       </div>
+      <Instructions />
       <Switch>
         <Route path="/" exact component={CameraComponent} />
         <Route path="/*" component={NotFoundPage} />
       </Switch>
-      <Instructions />
+      
     </BrowserRouter>
   );
 }
