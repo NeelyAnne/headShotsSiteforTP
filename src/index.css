@@ -242,6 +242,49 @@ video {
   margin-bottom: 40px;
 }
 
+/* fullscreen enable by props */
+.demo-image-preview-fullscreen > img {
+  width: 100vw;
+  height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.mid {
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  margin-top: 5px;
+  padding: 5px;
+  justify-content: center;
+}
+
+/* w3 schools method ... can be applied to any pics */
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* PLEASE IGNORE THIS FOR NOW WHILE THE INSTRUCTION COMPONENTS TEAM WORKS ON THE INSTRUCTIONS THANK YOU JC 😊 */
+/* .lineItem {
+  border: blue dashed 2px;
+  margin: 5px;
+} */
+
+.welcomeInst {
+  text-align: center;
+}
+#buisnesspeople {
+  padding: 5px;
+}
+
 @media (max-width: 830px) {
   .demo-image-preview > img {
     width: 100%;
@@ -322,50 +365,8 @@ video {
   /* .camera {
     height: 200px;
   } */
-  .preview-s-btns{
+  .preview-btns{
     margin: 10px;
+    font-size: .5em;
   }
-}
-
-/* fullscreen enable by props */
-.demo-image-preview-fullscreen > img {
-  width: 100vw;
-  height: 100vh;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-.mid {
-  text-align: center;
-}
-
-.buttonContainer {
-  display: flex;
-  margin-top: 5px;
-  padding: 5px;
-  justify-content: center;
-}
-
-/* w3 schools method ... can be applied to any pics */
-
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
-
-/* PLEASE IGNORE THIS FOR NOW WHILE THE INSTRUCTION COMPONENTS TEAM WORKS ON THE INSTRUCTIONS THANK YOU JC 😊 */
-/* .lineItem {
-  border: blue dashed 2px;
-  margin: 5px;
-} */
-
-.welcomeInst {
-  text-align: center;
-}
-#buisnesspeople {
-  padding: 5px;
 }
