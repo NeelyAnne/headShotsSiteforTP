@@ -211,10 +211,10 @@ function CameraComponent(props) {
 						<><ImagePreview dataUri={dataUri}
 							isFullscreen={isFullscreen}
 						/>
-							<div className="preview-btns">
-								<button className="preview-s-btns retake" onClick={resetState}>Retake Photo</button>
-								<button className="preview-s-btns save" onClick={savePhoto}>Save Photo</button>
-								<button className="preview-s-btns change" onClick={changeBg}>Change Background</button>
+							<div className="preview-btn-div">
+								<button className="all-btns preview-btns retake" onClick={resetState}>Retake Photo</button>
+								<button className="all-btns preview-btns save" onClick={savePhoto}>Save Photo</button>
+								<button className="all-btns preview-btns change" onClick={changeBg}>Change Background</button>
 							</div>
 						</>
 						:

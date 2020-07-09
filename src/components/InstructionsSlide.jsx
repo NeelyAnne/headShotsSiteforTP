@@ -58,8 +58,8 @@ export default class InstructionsSlide extends Component {
             <div >
                 <div>{this.state.InstructionLineItems[this.state.XYZ]}</div>
                 <div className="buttonContainer">
-                    <button id="bckBtn" onClick={this.handleClickMinus}>Back</button>
-                    <button id="goBtn" onClick={this.handleClickPlus} >Next</button>
+                    <button className="all-btns slide-btn" id="bckBtn" onClick={this.handleClickMinus}>Back</button>
+                    <button className="all-btns slide-btn" id="goBtn" onClick={this.handleClickPlus} >Next</button>
                 </div>
             </div>
         )
