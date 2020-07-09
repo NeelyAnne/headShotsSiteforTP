@@ -5,7 +5,7 @@ import Home from './Home';
 export default class Instructions extends Component {
 
     state = {
-        isActive:false,
+        isActive: false,
         btnTalk: "Read Instructions"
      }
    
@@ -33,7 +33,7 @@ export default class Instructions extends Component {
           return(
               <>
                   <div className="container-instr">
-                  <button className="preview-s-btns info" onClick={this.handleShow}>{this.state.btnTalk}</button>
+                  <button className="all-btns info" onClick={this.handleShow}>{this.state.btnTalk}</button>
                   </div>
               {this.state.isActive ?      
               <div className="home-container">       
