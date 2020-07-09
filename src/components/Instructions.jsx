@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Home from './home';
+import Home from './Home';
 
 
 export default class Instructions extends Component {
