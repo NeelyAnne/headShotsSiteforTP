@@ -5,8 +5,8 @@ import Home from './Home';
 export default class Instructions extends Component {
 
     state = {
-        isActive: false,
-        btnTalk: "Read Instructions"
+        isActive: true,
+        btnTalk: "Collapse Instructions"
      }
    
      handleShow = ()=>{
