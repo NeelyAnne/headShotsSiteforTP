@@ -205,6 +205,7 @@ function CameraComponent(props) {
 
 	return (
 		<div className="cameraDiv">
+			{/* <Popup /> */}
 				<div className="camera">
 					{(dataUri)
 						?
