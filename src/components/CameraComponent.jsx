@@ -205,6 +205,7 @@ function CameraComponent(props) {
 
 	return (
 		<div className="cameraDiv">
+			{/* <Popup /> */}
 				<div className="camera">
 					{(dataUri)
 						?
@@ -243,7 +244,7 @@ function CameraComponent(props) {
 								idealFacingMode={FACING_MODES.ENVIRONMENT}
 								imageType={IMAGE_TYPES.JPG}
 								imageCompression={0.97}
-								isImageMirror={true}
+								isImageMirror={false}
 								isSilentMode={false}
 								isDisplayStartCameraError={true}
 								isFullscreen={false}
