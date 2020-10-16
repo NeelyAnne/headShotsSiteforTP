@@ -22,13 +22,7 @@ export default class LineItem4 extends Component {
           ></img>
           <br/>
           <span className="attribute">
-          <a 
-            href="https://biteable.com/blog/best-video-lighting-kits/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Image borrowed from Biteable.com
-          </a>
+
           </span>
           </p>
         
