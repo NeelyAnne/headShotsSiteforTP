@@ -9,7 +9,7 @@ export default class LineItem4 extends Component {
           light coming from above at a slight angle. You do not need a reflector
           but you do not want to be directly under a light or back lit either.
           <br />
-          <a  
+          <a  target="_blank"
             href="http://www.prexperts.com/_assets/images/Cactus%20News/Clamshell%20lighting%20650.png">
             Diagram of Good Lighting
           </a> 
