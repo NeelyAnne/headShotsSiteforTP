@@ -10,6 +10,7 @@ export default class LineItem4 extends Component {
           but you do not want to be directly under a light or back lit either.
           <br />
           <a  target="_blank"
+          rel="noopener noreferrer"
             href="http://www.prexperts.com/_assets/images/Cactus%20News/Clamshell%20lighting%20650.png">
             Diagram of Good Lighting
           </a> 
