@@ -36,13 +36,13 @@ function CameraComponent(props) {
 	}
 
 	function savePhoto() {
-		download(dataUri, "headshot.png", "image/png");
+		download(dataUri, "headshot.jpeg", "image/jpeg");
 	};
 
 	function changeBg() {
-		if (process.env.REACT_APP_API_KEY === undefined) {
-			throw new Error("No API key found");
-		  }
+		// if (process.env.REACT_APP_API_KEY === undefined) {
+		// 	throw new Error("No API key found");
+		//   }
 
 		  async function removeBgFromBase64() {
 			try {
@@ -52,10 +52,10 @@ function CameraComponent(props) {
 			  const base64img = dataUri;
 			  const result = await removeBackgroundFromImageBase64({
 				base64img,
-				apiKey: 'oGn3tSvRJukygGbgkKJhKqft',
+				apiKey:  process.env.REACT_APP_API_KEY,
 				size: "auto",
 				type: "person",
-				bg_image_url: window.location.href + "img/portrait-bg.png"
+				image_url: window.location.href + "img/portrait-bg.jpg"
 			  });
 		  
 			  //console.log(`File saved to ${outputFile}`);
@@ -239,11 +239,11 @@ function CameraComponent(props) {
 								onCameraStop={() => {
 									handleCameraStop();
 								}}
-								idealResolution={{ width:3264, height: 1836 }}
+								idealResolution={{ width:640, height: 480 }}
 								isMaxResolution={true}
 								idealFacingMode={FACING_MODES.ENVIRONMENT}
-								imageType={IMAGE_TYPES.PNG}
-								imageCompression={1}
+								imageType={IMAGE_TYPES.JPG}
+								imageCompression={0.97}
 								isImageMirror={false}
 								isSilentMode={false}
 								isDisplayStartCameraError={true}
