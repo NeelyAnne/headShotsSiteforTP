@@ -40,9 +40,9 @@ function CameraComponent(props) {
 	};
 
 	function changeBg() {
-		// if (process.env.REACT_APP_API_KEY === undefined) {
-		// 	throw new Error("No API key found");
-		//   }
+		 if (process.env.REACT_APP_API_KEY === undefined) {
+		 	throw new Error("No API key found");
+		 }
 
 		  async function removeBgFromBase64() {
 			try {
