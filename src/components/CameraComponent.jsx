@@ -38,11 +38,11 @@ function CameraComponent(props) {
 	function savePhoto() {
 		download(dataUri, "headshot.png", "image/png");
 	};
-
+//
 	function changeBg() {
-		if (process.env.REACT_APP_API_KEY === undefined) {
-			throw new Error("No API key found");
-		  }
+		// if ('oGn3tSvRJukygGbgkKJhKqft' != 'oGn3tSvRJukygGbgkKJhKqft') {
+		// 	throw new Error("No API key found");
+		//   }
 
 		  async function removeBgFromBase64() {
 			try {
@@ -52,10 +52,10 @@ function CameraComponent(props) {
 			  const base64img = dataUri;
 			  const result = await removeBackgroundFromImageBase64({
 				base64img,
-				apiKey: 'oGn3tSvRJukygGbgkKJhKqft',
+				apiKey: 'ZSaL3kCos253xbQGfBc7PVfJ',
 				size: "auto",
 				type: "person",
-				bg_image_url: window.location.href + "img/portrait-bg.png"
+				bg_image_url: "https://github.com/BrianLoveGa/headShotsSiteforTP/blob/master/public/img/portrait-bg.jpg?raw=true"
 			  });
 		  
 			  //console.log(`File saved to ${outputFile}`);
