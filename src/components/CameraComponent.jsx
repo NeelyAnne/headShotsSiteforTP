@@ -36,7 +36,7 @@ function CameraComponent(props) {
 	}
 
 	function savePhoto() {
-		download(dataUri, "headshot.png", "image/png");
+		download(dataUri, "headshot.jpeg", "image/jpeg");
 	};
 //
 	function changeBg() {
@@ -239,11 +239,11 @@ function CameraComponent(props) {
 								onCameraStop={() => {
 									handleCameraStop();
 								}}
-								idealResolution={{ width:3264, height: 1836 }}
+								idealResolution={{ width:640, height: 480 }}
 								isMaxResolution={true}
 								idealFacingMode={FACING_MODES.ENVIRONMENT}
-								imageType={IMAGE_TYPES.PNG}
-								imageCompression={1}
+								imageType={IMAGE_TYPES.JPG}
+								imageCompression={0.97}
 								isImageMirror={false}
 								isSilentMode={false}
 								isDisplayStartCameraError={true}
