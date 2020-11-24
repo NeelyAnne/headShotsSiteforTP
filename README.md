@@ -4,24 +4,10 @@
 
 A web/mobile application that instructs and allows the user to capture an image of themselves and save it to their device to be used as a professional headshot. Save images to edit them, email them, use them online, or attach them to a resume.
 
-## **My Contribution:**
-
-My main contribution for this application was deployment. I set up the continuous-integration deplyment for both staging and production in both Amazon Web Services (AWS) and Heroku for this application. 
 
 ## **Deployed App:**
 
-We have 3 deployments. The Amazon Web Services link and the Google Cloud Platform links are up to date; however, the heroku link has not been updated as to compare the single page application version to the multi-page application version.
-
-[Heroku](https://tp-camera-app.herokuapp.com/)
-
-&
-
-[AWS](https://master.d2w5ezifeqwhms.amplifyapp.com/)
-
-& 
-
-[GCP](https://camera-app-4145.ue.r.appspot.com/)
-
+https://headshot.talentpath.io/
 
 
 ## **Contributors:**
